@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro </title>
+    <script src="cadastro.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/MOCKUP_-_CELLPHONE__1_-removebg-preview.png">
+</head>
+<body>
+    <div class="navbar">
+            <img id="logo" src="../EPTRAN/img/MOCKUP_-_CELLPHONE__3_-removebg-preview.png"> 
+          
+    </div>
+
+    <div class="container">
+        <form action="#" method="post">
+
+      
+
+
+            <div>
+                <h1> Cadastre-se</h1>
+            </div>
+
+            <div>
+                <label for="nome"> Nome Completo:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
+
+            <div>
+                <label for="escolaridade"> Escolaridade:</label>
+                <input type="text" id="escolaridade" name="escolaridade" required>
+            </div>
+
+            <div>
+                <label for="dta"> Data de Nascimento </label>
+                <input type="text" id="dta" name="dta" required>
+            </div>
+
+            <div>
+                <label for="email"> E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="senha"> Senha:</label>
+                <input type="password" id="senha" name="senha" required>  
+            </div>
+
+            <div>
+                <label for="senha"> Confirme a Senha:</label>
+                <input type="password" id="senha" name="senha" required>  
+            </div>
+
+
+
+            <div>
+                <label for="scales">Li e Concordo com os termos de Política e Privacidade</label> 
+                 <input type="checkbox" id="scales" name="scales"  />
+               
+              </div>
+            
+              <div>
+                <label for="horns">Li e Concordo com os Termos de Uso </label>
+                <input type="checkbox" id="horns" name="horns" />
+              </div>
+
+            <br>
+            <div>
+                <button id="processa" type="button" onclick="salvarDados()">Cadastrar</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
