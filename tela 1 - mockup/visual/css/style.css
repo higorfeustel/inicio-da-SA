@@ -1,0 +1,51 @@
+body {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../../../../Downloads/MOCKUP_-_CELLPHONE__1_-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: -150px;
+}
+#imagem2 {
+    justify-content: center;
+    align-items: center;
+    width: 100000px;
+    margin-right: 150px;
+    img {
+        /* width: 20%; */
+        margin-right: 150px;
+    }
+}
+
+body {
+    background-color: #E8E8E8;
+}
+
+button{
+    color: #ffffff;
+    background-color: #0F30C8;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+    margin-left: 170px;
+}
+#imagem3 {
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 190px;
+    margin-top: -850px;
+
+}
+
+#logo{
+    width: 50px;
+    margin-top: 1%;
+}
