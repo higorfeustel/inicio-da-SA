@@ -42,10 +42,42 @@ button{
     background-position: center center;
     margin-left: 190px;
     margin-top: -850px;
-
+    button {
+        width: 23%;
+    }
 }
 
 #logo{
     width: 50px;
-    margin-top: 1%;
+    margin-top: -1%;
+    margin-left: 3%;
+
+}
+
+.navbar{
+    position: sticky;
+    background: linear-gradient(90deg, rgba(25,66,223,1) 0%, rgba(0,0,0,1) 100%);
+    width: 500px;
+    margin-top: -160%;
+    margin-left: -14%;
+    height: 8%;
+}
+#button2{
+    color: #ffffff;
+    background-color: #2737c9; 
+    border-radius: 5px;
+    font-size: 200px;
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+    margin-left: 1px;
+    position: absolute;
+}
+#processa2{
+    margin-top: -47px;
+    margin-left: 19px;
+    background-color: #1900ff; 
+    position: absolute;
+    width: 29%;
+
 }
