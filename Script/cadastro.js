@@ -1,4 +1,4 @@
-<<<<<<< HEAD:Script/cadastro.js
+
 function salvarDados(){
     var nome =  document.getElementById('nome').value;
     var email =  document.getElementById('email').value;
@@ -45,4 +45,4 @@ function openNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
   }
->>>>>>> 67a7bbce352b94c1a87474dcb443727b3010c524:SA/Script/cadastro.js
+
