@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro </title>
+    <script src="../../Script/cadastro.js"></script>
+    <link rel="stylesheet" href="../../../SA/Style/style.css">
+    <link rel="shortcut icon" type="imagex/png" href="../../img/MOCKUP_-_CELLPHONE__1_-removebg-preview.png">
+</head>
+<body>
+
+    <div class="navbar">
+
+            
+            
+
+            <img id="logo" src="../../img/MOCKUP_-_CELLPHONE__3_-removebg-preview.png"> 
+            <div>
+            <h1 id="ep"> EPTRAN </h1>
+        </div>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">Sobre Nós</a>
+            <a href="#">ínicio</a>
+            <a href="#">Identificação</a>
+            <a href="#">Cadastro</a>
+          </div>
+          
+
+        
+          <span onclick="openNav()"><img src="../../img/icons8-cardápio.svg" alt="circle"></span>
+          
+    </div>
+
+    <div class="container">
+        <form action="#" method="post">
+
+      
+
+
+            <div>
+                <h1> Login </h1>
+            </div>
+            <div>
+                <label for="email"> E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="senha"> Senha:</label>
+                <input type="password" id="senha" name="senha" required>  
+            </div>
+            <br>
+            <div>
+                <button id="processa" type="button" onclick="salvarDados()">Login</button>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
