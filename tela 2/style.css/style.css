@@ -1,4 +1,3 @@
-
 body {
     margin: 0;
     padding: 0;
@@ -11,6 +10,7 @@ body {
 .container {
     width: 80%; /* Largura do cabeçalho reduzida */
     margin: 0 auto;
+    position: relative;
 }
 
 header {
@@ -123,19 +123,21 @@ main {
 .hero {
     padding: 100px 0;
     text-align: center;
+    position: relative;
 }
 
 .botoes {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 50px; /* Espaçamento entre os botões reduzido */
+    align-items: flex-start; /* Alinha à esquerda */
+    padding-left: 50%; /* Ajuste o valor conforme necessário para mover os botões para a direita */
+    gap: 40px; /* Espaçamento entre os botões */
 }
 
 .btn {
     background-color: #036;
     color: #fff;
-    padding: 40px 40px;
+    padding: 20px 40px;
     border-radius: 1000px;
     text-decoration: none;
     transition: background-color 0.3s ease;
@@ -154,4 +156,39 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+.foca {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.foca img {
+    width: 400px; /* Aumente o tamanho da imagem */
+    height: auto;
+}
+
+.balao-fala {
+    left: 50px;
+    top: 20%;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.balao-fala::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid white;
 }
