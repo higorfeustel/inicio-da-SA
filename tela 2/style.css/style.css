@@ -171,8 +171,9 @@ footer {
 }
 
 .balao-fala {
-    left: 50px;
-    top: 20%;
+    position: absolute;
+    left: 350px; /* Ajuste o valor conforme necessário para posicionar à direita da foca */
+    top: 30%; /* Ajuste o valor conforme necessário para posicionar um pouco acima da foca */
     background-color: white;
     padding: 10px;
     border-radius: 10px;
