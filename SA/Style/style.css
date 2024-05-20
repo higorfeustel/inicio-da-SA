@@ -144,3 +144,9 @@ button[type="submit"]:hover{
     .sidenav a {font-size: 18px;}
   }
 
+#ep{
+    display: flex ;
+    text-align: center;
+    color: #fff;
+}
+
