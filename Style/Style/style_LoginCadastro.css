@@ -17,6 +17,7 @@ body{
     width: 100px;
 }
 
+    /* Cor modelo do EPTRAN*/
 .navbar{
     position: sticky;
     background: linear-gradient(90deg, rgba(18,55,199,1) 90%, rgba(0,0,0,1) 100%);
