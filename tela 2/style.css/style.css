@@ -4,7 +4,7 @@ body {
     font-family: Arial, sans-serif;
     background-size: cover;
     background-position: center;
-    background-image: url(../imagem/MOCKUP\ -\ CELLPHONE.jpg);
+    background-image: url(../imagem/imagem\ -\ rua.jpg);
 }
 
 .container {
@@ -15,7 +15,7 @@ body {
 
 header {
     background: rgb(55,48,157);
-    background: linear-gradient(90deg, rgba(55,48,157,1) 9%, rgba(8,8,85,1) 36%);
+    background: linear-gradient(90deg, rgba(#023859) 9%, rgba(#023859) 36%);
     color: #fff;
     padding: 20px 0;
     position: relative;
@@ -34,6 +34,7 @@ header {
 .logo img {
     height: 50px;
     filter: brightness(150%);
+    color:#023859;
 }
 
 .eptran-container {
@@ -173,10 +174,10 @@ footer {
 .balao-fala {
     position: absolute;
     left: 350px; /* Ajuste o valor conforme necessário para posicionar à direita da foca */
-    top: 30%; /* Ajuste o valor conforme necessário para posicionar um pouco acima da foca */
+    top: 10%; /* Ajuste o valor conforme necessário para posicionar um pouco acima da foca */
     background-color: white;
     padding: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 200px;
