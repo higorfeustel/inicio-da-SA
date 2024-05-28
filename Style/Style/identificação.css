@@ -4,11 +4,10 @@ body {
     font-family: Arial, sans-serif;
     background-size: cover;
     background-position: center;
-<<<<<<< HEAD:tela 2/style.css/style.css
+
     background-image: url(../imagem/imagem\ -\ rua.jpg);
-=======
     background-image: url(../img/estrada.jpg);
->>>>>>> 4b99e4340984eeb98c9e743d6cb27372bc166628:Style/Style/identificação.css
+
 }
 
 .container {
