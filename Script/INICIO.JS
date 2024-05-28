@@ -8,3 +8,7 @@ function openNav() {
     document.getElementById("main").style.marginLeft = "0";
   }
 
+function continuar() {
+  // função que leva para a proxima página
+  window.location.href = ""
+}
