@@ -17,10 +17,10 @@ body {
 }
 
 header {
-    background: rgb(55,48,157);
-    background: linear-gradient(90deg, rgba(#023859) 9%, rgba(#023859) 36%);
+    background-color: #023859;
+    background: linear-gradient(90deg, rgba(2,56,89,1) 90%, rgba(0,0,0,1) 100%);
     color: #fff;
-    padding: 20px 0;
+    padding: 5px 0;
     position: relative;
 }
 
@@ -35,7 +35,7 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 100px;
     filter: brightness(150%);
     color:#023859;
 }
@@ -124,17 +124,13 @@ main {
     padding: 20px 0;
 }
 
-.hero {
-    padding: 100px 0;
-    text-align: center;
-    position: relative;
-}
+
 
 .botoes {
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Alinha à esquerda */
-    padding-left: 50%; /* Ajuste o valor conforme necessário para mover os botões para a direita */
+    padding-left: 25%; /* Ajuste o valor conforme necessário para mover os botões para a direita */
     gap: 40px; /* Espaçamento entre os botões */
 }
 
@@ -170,7 +166,7 @@ footer {
 }
 
 .foca img {
-    width: 400px; /* Aumente o tamanho da imagem */
+    width: 300px; /* Aumente o tamanho da imagem */
     height: auto;
 }
 
@@ -199,3 +195,17 @@ footer {
 }
 
 
+.container{
+    text-align: center;
+    color: white;
+    align-items: center;
+    max-width: 300px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: rgb(0, 0, 0, 0.4);
+    border-radius: 5px;
+    box-shadow: rgba(185, 26, 26,); 
+   border-width: 10px;
+   border-style: solid;
+   border-color: #023859;
+}
