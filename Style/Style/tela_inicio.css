@@ -11,7 +11,7 @@ body{
 }
 
 div{
-    display: flex;
+ 
     justify-content: space-between;
     align-items: center;
 }
@@ -84,3 +84,14 @@ div{
 #CADASTRO {
   color: #fff;
   }
+
+.continuar {
+  margin-top: -30%;
+  margin-left: 5%;
+  border-radius: 10px;
+  button {
+    background-color:#023859;
+    color: white;
+    border-radius: 5px;
+  }
+}
