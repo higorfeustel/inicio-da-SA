@@ -16,9 +16,12 @@ body {
     position: relative;
 }
 
+/*Cores adaptadas ao modelo do EPTRAN*/
 header {
     background-color: #023859;
     background: linear-gradient(90deg, rgba(2,56,89,1) 90%, rgba(0,0,0,1) 100%);
+    background: #023859;
+    background: linear-gradient(90deg, rgba(#023859) 9%, rgba(#023859) 36%);
     color: #fff;
     padding: 5px 0;
     position: relative;
