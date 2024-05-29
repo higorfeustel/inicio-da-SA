@@ -5,6 +5,8 @@ body {
     background-size: cover;
     background-position: center;
     background-image: url(../imagem/imagem\ -\ rua.jpg);
+    background-image: url(../imagem/imagem\ -\ rua.jpg);
+    background-image: url(../img/estrada.jpg);
 }
 
 .container {
@@ -13,8 +15,9 @@ body {
     position: relative;
 }
 
+/*Cores adaptadas ao modelo do EPTRAN*/
 header {
-    background: rgb(55,48,157);
+    background: #023859;
     background: linear-gradient(90deg, rgba(#023859) 9%, rgba(#023859) 36%);
     color: #fff;
     padding: 20px 0;
@@ -194,3 +197,5 @@ footer {
     border-right: 10px solid transparent;
     border-top: 10px solid white;
 }
+
+
