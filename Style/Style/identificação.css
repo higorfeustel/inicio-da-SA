@@ -7,6 +7,7 @@ body {
     background-image: url(../imagem/imagem\ -\ rua.jpg);
     background-image: url(../imagem/imagem\ -\ rua.jpg);
     background-image: url(../img/estrada.jpg);
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .container {
@@ -17,6 +18,7 @@ body {
 
 /*Cores adaptadas ao modelo do EPTRAN*/
 header {
+
     background-color: #023859;
     background: linear-gradient(90deg, rgba(2,56,89,1) 90%, rgba(0,0,0,1) 100%);
     background: #023859;
@@ -52,75 +54,8 @@ header {
     margin: 0;
 }
 
-.menu-toggle {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 30px;
-    height: 20px;
-    cursor: pointer;
-    position: absolute;
-    right: 20px;
-}
 
-.hamburger {
-    width: 100%;
-    height: 3px;
-    background-color: #fff;
-    transition: transform 0.3s ease;
-}
 
-.hamburger:nth-child(2) {
-    margin: 5px 0;
-}
-
-.menu-toggle.active .hamburger:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
-}
-
-.menu-toggle.active .hamburger:nth-child(2) {
-    transform: scaleX(0);
-}
-
-.menu-toggle.active .hamburger:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
-}
-
-.menu-lateral {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: -250px;
-    width: 250px;
-    background-color: #036;
-    transition: left 0.3s ease;
-}
-
-.menu-lateral.active {
-    left: 0;
-}
-
-.nav-menu ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-.nav-menu ul li {
-    margin-left: 20px;
-}
-
-.nav-menu ul li a {
-    display: block;
-    padding: 10px 20px;
-    color: #fff;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-}
-
-.nav-menu ul li a:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
 
 main {
     padding: 20px 0;
@@ -129,6 +64,7 @@ main {
 
 
 .botoes {
+    
     display: flex;
     flex-direction: column;
     align-items: flex-start; /* Alinha à esquerda */
@@ -164,37 +100,14 @@ footer {
     position: absolute;
     left: 1px;
     top: 40%;
-    transform: translateY(-50%);
-}
+    transform: translateY(-40%);
+   }
 
 .foca img {
-    width: 300px; /* Aumente o tamanho da imagem */
+    width: 250px; /* Aumente o tamanho da imagem */
     height: auto;
 }
 
-.balao-fala {
-    position: absolute;
-    left: 350px; /* Ajuste o valor conforme necessário para posicionar à direita da foca */
-    top: 10%; /* Ajuste o valor conforme necessário para posicionar um pouco acima da foca */
-    background-color: white;
-    padding: 10px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
-    width: 200px;
-}
-
-.balao-fala::after {
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 20px;
-    width: 0;
-    height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid white;
-}
 
 
 .container{
@@ -211,3 +124,73 @@ footer {
    border-style: solid;
    border-color: #023859;
 }
+
+.navbar{
+    position: sticky;
+    background: linear-gradient(90deg, #023859 90%, rgba(0,0,0,1) 100%);
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+#logo{
+    width: 100px;
+}
+
+
+#ep{
+    display: flex ;
+    text-align: center;
+    color: #fff;
+}
+
+
+.sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }

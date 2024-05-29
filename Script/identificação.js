@@ -1,7 +1,12 @@
-const menuToggle = document.querySelector('.menu-toggle');
-const menuLateral = document.querySelector('.menu-lateral');
+function openNav() {
+    duocument.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("main").style.marginLeft = "250px";
+  }
+  
 
-menuToggle.addEventListener('click', () => {
-    menuToggle.classList.toggle('active');
-    menuLateral.classList.toggle('active');
-});
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("main").style.marginLeft = "0";
+  }
+
+  
