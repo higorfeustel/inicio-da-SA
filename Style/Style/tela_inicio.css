@@ -20,6 +20,7 @@ div{
     position: sticky;
     background: linear-gradient(90deg, #023859 90%, rgba(0,0,0,1) 100%);
     display: flex;
+    justify-content: space-around;
 }
 .sidenav {
     height: 100%; 
@@ -93,6 +94,10 @@ div{
   color: #ffffff;
   }
 
+  #login {
+    color: #ffffff;
+  }
+
 .continuar {
   margin-top: -30%;
   margin-left: 5%;
@@ -117,4 +122,8 @@ div{
  border-width: 10px;
  border-style: solid;
  border-color: #023859;
+}
+
+.svg{
+  display: flex;
 }
