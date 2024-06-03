@@ -103,3 +103,18 @@ div{
     border-radius: 5px;
   }
 }
+
+.container{
+  text-align: center;
+  color: white;
+  align-items: center;
+  max-width: 300px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.4);
+  border-radius: 5px;
+  box-shadow: rgba(185, 26, 26,); 
+ border-width: 10px;
+ border-style: solid;
+ border-color: #023859;
+}
