@@ -10,7 +10,6 @@ body{
     background-position:  center center;
 }
 
-
 div{
  
     justify-content: space-between;
@@ -23,84 +22,11 @@ div{
     display: flex;
     justify-content: space-around;
 }
-
-#navigation a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 20px;
-}
-
-.content {
-    padding: 20px;
-    display: flex;
-}
-
-#video-section, #game-section {
-    margin-bottom: 40px;
-}
-
-.video-wrapper {
-    position: relative;
-    width: 50%;
-    padding-bottom: 56.25%;
-}
-
-.video-wrapper iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 70%;
-    height: 50%;
-}
-
-#game-container {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-
-.placa {
-    position: center;
-    cursor: pointer;
-    display: flex;
-}
-
-.signal img {
-    width: 100px;
-    height: auto;
-}
-
-button {
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-footer {
-    background-color: #f9f9f9;
-    text-align: center;
-    padding: 10px;
-}
-
-#result {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 20px;
-}
-
-h2{
-    text-align: center;
-}
-
 .sidenav {
     height: 100%; 
     width: 0; 
     position: fixed; 
-    z-index: -1;
+    z-index: 1; 
     top: 0;
     left: 0;
     background-color: #111; 
@@ -110,13 +36,13 @@ h2{
     height: 100%;
     width: 0;
     position: fixed; /* Comando para ficar no lugar */
-    z-index: 2; 
+    z-index: 1; 
     top: 0;
     left: 0;
     background-color: #111;
     overflow-x: hidden;
     padding-top: 60px;
-    transition: 0.1s; /* tempo para o efeito de transição */
+    transition: 0.5s; /* tempo para o efeito de transição */
   }
   
   .sidenav a {
@@ -161,4 +87,43 @@ h2{
 
 #logo{
     width: 100px;
+}
+
+
+#CADASTRO {
+  color: #ffffff;
+  }
+
+  #login {
+    color: #ffffff;
+  }
+
+.continuar {
+  margin-top: -30%;
+  margin-left: 5%;
+  border-radius: 10px;
+  button {
+    background-color:#023859;
+    color: white;
+    border-radius: 5px;
+  }
+}
+
+.container{
+  text-align: center;
+  color: white;
+  align-items: center;
+  max-width: 300px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: rgb(0, 0, 0, 0.4);
+  border-radius: 5px;
+  box-shadow: rgba(185, 26, 26,); 
+ border-width: 10px;
+ border-style: solid;
+ border-color: #023859;
+}
+
+.svg{
+  display: flex;
 }
